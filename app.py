@@ -16,7 +16,7 @@ if astrology_choose != "":
     lowercase_astrology_choose = astrology_choose.lower()
     horoscope = pyaztro.Aztro(sign=lowercase_astrology_choose)
     st.markdown("Today's Date: " + str(horoscope.current_date))
-    st.markdown("Date Range Availability of the Forecast: " + str(horoscope.date_range[0]) + " to " + str(horoscope.date_range[1]))
+    #st.markdown("Date Range Availability of the Forecast: " + str(horoscope.date_range[0]) + " to " + str(horoscope.date_range[1]))
     st.markdown("Your Horoscope Compatibility: " + str(horoscope.compatibility))
     st.markdown("Your Horoscope Lucky Number: " + str(horoscope.lucky_number))
     st.markdown("Your Horoscope Lucky Time: " + str(horoscope.lucky_time))

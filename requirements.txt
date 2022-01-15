@@ -1,0 +1,2 @@
+streamlit==0.80.0
+pyaztro==0.3
